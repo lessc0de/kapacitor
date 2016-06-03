@@ -54,7 +54,7 @@ kapacitor define-template generic_mean_alert -tick path/to/above/script.tick -ty
 Next define a task that uses the template:
 
 ```
-kapacitor define cpu_alert -template-id generic_mean_alert -vars cpu_vars.json -dbrp telegraf.default
+kapacitor define cpu_alert -template generic_mean_alert -vars cpu_vars.json -dbrp telegraf.default
 ```
 
 Where `cpu_vars.json` would like like this:
