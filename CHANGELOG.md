@@ -168,6 +168,8 @@ batch
 - [#606](https://github.com/influxdata/kapacitor/pull/606): Add Holt-Winters forecasting method.
 - [#605](https://github.com/influxdata/kapacitor/pull/605): BREAKING: StatsNode for batch edge now count the number of points in a batch instead of count batches as a whole.
     This is only breaking if you have a deadman switch configured on a batch edge.
+- [#611](https://github.com/influxdata/kapacitor/pull/611): Adds bash completion to the kapacitor CLI tool.
+
 
 ### Bugfixes
 
